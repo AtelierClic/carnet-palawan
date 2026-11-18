@@ -14,7 +14,7 @@
  * Changer VERSION invalide tout : c'est le seul bouton à connaître.
  */
 
-const VERSION = 'palawan-2026-v5';
+const VERSION = 'palawan-2026-v6';
 const CACHE_APP = `${VERSION}-app`;
 const CACHE_TUILES = `${VERSION}-tuiles`;
 
