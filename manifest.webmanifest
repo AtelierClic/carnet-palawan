@@ -1,0 +1,19 @@
+{
+  "name": "Palawan 2026 — Lukas & Chloé",
+  "short_name": "Palawan 2026",
+  "description": "Jour après jour, où sont Lukas et Chloé aux Philippines. Du 30 novembre au 17 décembre 2026.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#dccbb0",
+  "theme_color": "#0b2e3f",
+  "categories": ["travel", "navigation"],
+  "icons": [
+    { "src": "icone-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icone-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,20 @@
+# Lu par Netlify ET par Cloudflare Pages (fichier depose a la racine de `dist`).
+# Les fichiers dont le nom contient un hachage ne changent jamais : on les met
+# en cache pour un an. Le HTML, lui, doit toujours etre revalide.
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/photos/*
+  Cache-Control: public, max-age=604800
+
+/avatars/*
+  Cache-Control: public, max-age=604800
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  X-Frame-Options: SAMEORIGIN
+
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
